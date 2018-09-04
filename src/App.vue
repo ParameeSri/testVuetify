@@ -121,7 +121,9 @@
             </v-flex>
           </v-layout>
         </v-container> -->
+        
       </v-content>
+      
       <v-layout row justify-center>
           <v-dialog v-model="dialog" persistent max-width="500px">
             <v-btn slot="activator" color="info" dark>Open Dialog</v-btn>
@@ -179,6 +181,7 @@
             </v-card>
           </v-dialog>
         </v-layout>
+        
     </v-app>
   </template>
   
